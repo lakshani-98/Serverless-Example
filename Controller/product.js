@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 //  base url to test our API
 app.get('/index', async (req, res) => {
-   await res.send("<h3>Welcome to the Product API for LogRocket Blog serverless Example!!</h3>")
+   await res.send("<h3>Welcome to the Product API for serverless Example!!</h3>")
 })
 
 //  function for creating a new product
